@@ -675,7 +675,7 @@ local function RunTriggerFunc(allStates, data, id, triggernum, event, arg1, arg2
       if data.fixUpShowNil then
         for key, state in pairs(allStates) do
           if state.show == nil then
-            state.show = false
+            state.show = true
             local uid = WeakAuras.GetData(id).uid
             Private.AuraWarnings.UpdateWarning(uid, "StateShowNil", "warning",
               L["This aura is setting show to nil. This is deprecated and the behavior will change in the future."])

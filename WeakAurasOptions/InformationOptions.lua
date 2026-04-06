@@ -210,7 +210,7 @@ function OptionsPrivate.GetInformationOptions(data)
       name = L["Custom Trigger: Send fake events instead of STATUS event"]
     },
     showNilIsFalse = {
-      name = L["Hide auras on setting show to nil in custom triggers"]
+      name = L["Treat show=nil as show=true in custom triggers"]
     },
     groupOffset = {
       name = L["Offset by 1px"],
